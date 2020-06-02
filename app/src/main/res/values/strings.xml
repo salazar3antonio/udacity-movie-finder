@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movie Finder</string>
+    <string name="text_use_my_location">Use My Location</string>
+    <string name="text_help_zip_code">USA ZIP Code</string>
+    <string name="text_cd_movie_poster">Movie poster</string>
+    <string name="text_cd_want_to_watch">Want To Watch</string>
+    <string name="text_cd_poster_thumnail">Movie thumbnail image</string>
+    <string name="text_cd_movie_backdrop">Movie backdrop image</string>
+    <string name="text_btn_get_directions">Get Directions</string>
+    <string name="text_or_seperator">OR</string>
+    <string name="text_zip_search">ZIP Search</string>
+    <string name="theaters_near_me">Theaters Near Me</string>
+    <string name="check_out_movies_now_playing_in_theaters">Check out movies now playing in theaters.</string>
+    <string name="find_a_movie_theater_in_your_area">Find a movie theater in your area.</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="tv_cd_movie_film_icon">Movie film icon</string>
+    <string name="want_to_watch">Want To Watch</string>
+</resources>
