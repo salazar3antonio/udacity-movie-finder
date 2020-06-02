@@ -14,6 +14,7 @@ import com.example.moviefinder.utils.parseNowPlayingResults
 import com.example.moviefinder.utils.parseTheaterRadiusResults
 import org.json.JSONObject
 import retrofit2.Retrofit
+import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
 import timber.log.Timber
 import java.util.ArrayList
@@ -42,7 +43,7 @@ class MovieRepository(private val mMovieDao: MovieDao) {
 
             val retrofit = Retrofit.Builder()
                 .baseUrl(Constants.TMDB_BASE_URL)
-                .addConverterFactory(ScalarsConverterFactory.create())
+                .addConverterFactory(MoshiConverterFactory.create())
                 .build()
             val nowPlayingApi = retrofit.create(TheMovieDbAPI::class.java)
             val rootJSONObject = nowPlayingApi.getNowPlaying(
